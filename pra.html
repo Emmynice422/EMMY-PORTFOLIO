@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="practice">
+        <h1>I am a <cite>Student</cite></h1>
+        <h2><dfn>Hey</dfn></h2>
+        <p><code>&lt;h3&gt;&lt;Code&gt;</code></p>
+        <code>document.write</code>("<var>user-name</var>")
+        <p>If everything worked you should see the result <samp>Test completed OK</samp>.</p>
+        <address>Wrox Press, 10475 Crosspoint Blvd, Indianapolis, IN 46256</address>
+
+        <ol type="i" start="4">
+            <li>Point number one</li> <li>Point number two</li> <li>Point number three</li>
+            </ol>
+
+            <dl>
+                <dt>Unordered List</dt>
+                <dd>A list of bullet points.</dd>
+                <dt>Ordered List</dt>
+                <dd>An ordered list of points, such as a numbered set of steps.</dd> <dt>Definition List</dt>
+                <dd>A list of terms and definitions.</dd> 
+            </dl>
+
+            <ol type="I">
+                <li>Item one</li> <li>Item two</li> <li>Item three</li> 
+                <li>
+                    <ol type="i">
+                        <li>Item one</li> <li>Item two</li> <li>Item three</li>
+                    </ol>
+                </li>
+                    <li>Item Five</li>
+                    </ol>
+    </div>
+
+    <p><small><a href="#top">Back to top</a></small></p>
+    <h1><a id="top">Wrox Cafe Menu</a></h1>
+    <div id="nav">
+        <a href="#starters">Starters</a> | 
+        <a href="#mains">Main Courses</a> | 
+        <a href="#desserts">Desserts</a>
+    </div>
+
+    <param name="src" value="movieTrailer.movie" /> 
+    <param name="autoplay" value="true" />
+
+    <table border="1">
+        <tr>
+        <th></th>
+        <th>Outgoings ($)</th>
+        <th>Receipts ($)</th>
+        <th>Profit ($)</th>
+        </tr>
+        <tr>
+        <th>Quarter 1 (Jan-Mar)</th> <td>11200.00</td>
+        <td>21800.00</td>
+        <td><b>10600.00</b></td>
+        </tr>
+        <tr>
+        <th>Quarter 2 (Apr-Jun)</th> <td>11700.00</td>
+        <td>22500.00</td>
+        <td><b>10800.00</b></td>
+        </tr>
+        <tr>
+        <th>Quarter 3 (Jul - Sep)</th> <td>11650.00</td>
+        <td>22100.00</td>
+        <td><b>10450.00</b></td>
+        </tr>
+        <tr>
+        <th>Quarter 4 (Oct - Dec)</th> <td>11850.00</td>
+        <td>22900.00</td> <td><b>11050.00</b></td>
+        </tr> 
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <td colspan="4">This is the head of the table</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">This is the foot of the table</td> </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+            </tr>
+            <tr>
+            ...more rows here containing four cells... </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>Cell 1</td>
+                <td>Cell 2</td>
+                <td>Cell 3</td>
+                <td>Cell 4</td>
+            </tr>
+            <tr>
+            ...more rows here containing four cells... </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <caption>Spanning columns using the colspan attribute</caption> <tr>
+        <td bgcolor="#efefef" width="100" height="100">&nbsp;</td> <td bgcolor="#999999" width="100" height="100">&nbsp;</td> <td bgcolor="#000000" width="100" height="100">&nbsp;</td>
+        </tr>
+        <tr>
+        <td bgcolor="#efefef" width="100" height="100">&nbsp;</td> <td colspan="2" bgcolor="#999999">&nbsp;</td>
+        </tr>
+        <tr>
+        <td colspan="3" bgcolor="#efefef" height="100">&nbsp;</td> </tr>
+    </table>
+
+    <table border="1">
+        <caption>Spanning rows using the colspan attribute</caption> <tr>
+            <td bgcolor="#efefef" width="100" height="100">&nbsp;</td>
+            <td bgcolor="#999999" width="100" height="100">&nbsp;</td>
+            <td rowspan="3" bgcolor="#000000" width="100" height="100">&nbsp;</td> </tr>
+            <tr>
+            <td bgcolor="#efefef" height="100">&nbsp;</td> <td rowspan="2" bgcolor="#999999">&nbsp;</td>
+            </tr>
+            <tr>
+            <td bgcolor="#efefef" height="100">&nbsp;</td> </tr>
+    </table>
+
+    <table>
+        <tr>
+        <td colspan="2" id="heading">Page heading and logo</td> </tr>
+        <tr>
+        <td id="navigation">Navigation item 1 <br /> Navigation item 2 <br />
+        Navigation item 3 <br />
+        Navigation item 4 <br />
+        </td>
+        <td>
+        <table>
+        <tr>
+        <td>Article 1</td>
+        </tr>
+        <tr>
+        <td>Article 2</td>
+        </tr>
+        <tr>
+        <td>Article 3</td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        <tr>
+        <td colspan="2" class="footer">Footer</td> </tr>
+    </table>
+
+    <form action="http://www.example.com/search.asp" method="get" name="frmSearch">
+        Search:
+        <input type="text" name="txtSearch" value="Search for" size="20" maxlength="64 />
+        <div class="submit">
+        <input type="submit" value="Submit" />
+        </div>
+    </form>
+
+    <form action="http://www.example.com/login.asp" method="post">
+        Username:
+        <input type="text" name="txtUsername" value="" size="20" maxlength="20" /> <br />
+        Password:
+        <input type="password" name="pwdPassword" value="" size="20" maxlength="20" />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <form action="http://www.example.org/feedback.asp" method="post"> Please tell us what you think of the site and then click submit:<br />
+        <textarea name="txtFeedback" rows="20" cols="50"> Enter your feedback here.
+        </textarea>
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <input type="submit" name="btnVoteRed" value="Vote for reds" /> 
+    <input type="submit" name="btnVoteBlue" value="Vote for blues" />
+    <br /><br />
+    <input type="reset" value="Clear form" /> <br /><br />
+    <input type="button" value="calculate" onclick="calculate()" />
+
+    <h1>Use images as buttons</h1>
+    <input type="image" src="submit.jpg" alt="Submit" name="btnImageMap" />
+
+    <form action="http://www.example.com/cv.asp" method="get" name="frmCV"> Which of the following skills do you possess? Select all that apply.<br>
+        <input type="checkbox" name="chkSkills" value="html" />HTML <br /> 
+        <input type="checkbox" name="chkSkills" value="xhtml" />XHTML <br /> 
+        <input type="checkbox" name="chkSkills" value="CSS" />CSS<br />
+        <input type="checkbox" name="chkSkills" value="JavaScript" /> JavaScript<br />
+        <input type="checkbox" name="chkSkills" value="html" />ASP<br /> 
+        <input type="checkbox" name="chkSkills" value="html" />PHP
+    </form>
+
+        <form action="http://www.example.com/flights.asp" name="frmFlightBooking" method="get">
+            Please select which class of travel you wish to fly: <br />
+            <input type="radio" name="radClass" value="First" />First class <br />
+            <input type="radio" name="radClass" value="Business" />Business class <br /> <input type="radio" name="radClass" value="Economy" />Economy class <br />
+        </form>
+
+        <select name="selColor">
+            <option selected="selected" value="">Select color</option> <option value="red">Red</option>
+            <option value="green">Green</option> <option value="blue">Blue</option>
+        </select>
+
+        <h2>For multiple options</h2>
+        <form action="http://www.example.org/days.asp" method="get" name="frmDays"> Please select more than one day of the week:<br />
+            <select name="selDays" multiple="multiple"> 
+                <option value="Mon">Monday</option>
+                <option value="Tue">Tuesday</option>
+                <option value="Wed">Wednesday</option> 
+                <option value="Thu">Thursday</option> 
+                <option value="Fri">Friday</option> 
+                <option value="Sat">Saturday</option> 
+                <option value="Sun">Sunday</option>
+            </select>
+            <br /><br /><input type="submit" value="Submit">
+        </form>
+        <h2>Grouping Options with the optgroup Element</h2>
+            <form action="http://www.example.org/info.asp" method="get" name="frmInfo"> Please select the product you are interested in:<br />
+                <select name="selInformation">
+                    <option disabled="disabled" value="">--Hardware--</option>
+                        <option value="Desktop">Desktop computers</option>
+                        <option value="Laptop">Laptop computers</option>
+                    </optgroup>
+                        <option disabled="disabled" value="">--Software--</option>
+                        <option value="OfficeSoftware">Office software</option> 
+                        <option value="Games">Games</option>
+                    </optgroup>
+                    <option disabled="disabled" value="">--Peripherals--</option>
+                        <option value="Monitors">Monitors</option>
+                        <option value="InputDevices">Input Devices</option> 
+                        <option value="Storage">Storage</option>
+                    </optgroup>
+                </select>
+                <br /><br /><input type="submit" value="Submit" /> 
+            </form>
+
+        <h2>File Select Boxes</h2>
+        <form action="http://www.example.com/imageUpload.asp" method="post" name="fromImageUpload" enctype="multipart/form-data">
+            <input type="file" name="fileUpload" accept="image/*" />
+            <br /><br /><input type="submit" value="Submit" /> 
+        </form>
+
+        <p>This is the browser's default font.</p>
+        <font face="arial, verdana, sans-serif" size="2">
+            <h1>Example of the &lt;font&gt; Element</h1>
+            <p><font size="4" color="darkgray">Here is some size 3 writing
+            in the color called darkgray. The typeface is determined by the previous &lt;font&gt; element that contains this paragraph.</font></p>
+            <p><font face="courier" size="2" color="#000000">Now here is a courier
+            font, size 2, in back</font></p> 
+        </font>
+
+        <h2>Example of &lt;strike&gt; Element</h2>
+        <s>This text will have a line through it</s><br>
+        <strike>This text will also have a line through it.</strike>
+
+        <h2>Example of the &lt;center&gt; Element</h2>
+        <center>
+            Anything inside a &lt;center&gt; element is centered on the page, or within its containing element.<br /><br />
+            <table width="600" border="1">
+                <tr>
+                    <td>Cells whose content is written inside a &lt;center&gt; will be centered within the cell, like the one to the right.</td>
+                    <td><center>This cell's content should be centered.</td>
+                </tr>
+                <tr>
+                    <td><center>This cell's content should be centered.</td>
+                    <td>Cells whose content is written inside a &lt;center&gt; will be centered within the cell, like the one to the left.</td>
+                </tr> 
+            </table>
+        </center>
+
+
+    
+</body>
+</html>
